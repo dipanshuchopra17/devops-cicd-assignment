@@ -23,7 +23,6 @@ jobs:
           mkdir -p dist
           cp index.html dist/
           [ -f style.css ] && cp style.css dist/
-          [ -f script.js ] && cp script.js dist/
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
